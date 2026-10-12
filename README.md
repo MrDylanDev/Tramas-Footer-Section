@@ -1,4 +1,4 @@
-# Tramas - Interactive Footer Section
+# Tramas
 
 Interactive footer section featuring video gaze-tracking that follows the cursor, built with React 19, Vite, and Tailwind CSS.
 
