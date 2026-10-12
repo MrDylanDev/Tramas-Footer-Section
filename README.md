@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Studio Fabrics - Interactive Footer
 
-# Run and deploy your AI Studio app
+Interactive footer section featuring video gaze-tracking that follows the cursor, designed with React 19, Vite, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Features
+- **Video Scrubbing / Gaze Tracking:** Follows pointer movements using pre-calculated eye trajectory angles (`gaze-frames.json`).
+- **Responsive & Accessible:** Fluid viewport units (`vw`), mobile layout fallback, and support for `prefers-reduced-motion`.
+- **Local Typography:** Epilogue Black & DM Sans fonts.
 
-View your app in AI Studio: https://ai.studio/apps/5a881a44-5ffd-4f94-865b-9c27871759ab
+## Getting Started
 
-## Run Locally
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-**Prerequisites:**  Node.js
+2. **Start development server:**
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
