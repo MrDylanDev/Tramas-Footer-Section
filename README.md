@@ -1,36 +1,50 @@
 # Tramas
 
-Interactive footer section featuring video gaze-tracking that follows the cursor, built with React 19, Vite, and Tailwind CSS.
+Sección de pie de página interactiva con seguimiento de mirada por video (gaze-tracking) que sigue la posición del cursor, construida con React 19, Vite y Tailwind CSS.
 
-## Features
-- **Video Scrubbing / Gaze Tracking:** Follows pointer movements using pre-calculated eye trajectory angles (`gaze-frames.json`).
-- **Responsive & Accessible:** Fluid viewport units (`vw`), mobile layout fallback, and support for `prefers-reduced-motion`.
-- **Local Typography:** Epilogue Black & DM Sans fonts.
+## Características
 
-## Getting Started
+- **Seguimiento de mirada / Video scrubbing:** Sigue el movimiento del puntero en tiempo real utilizando ángulos de trayectoria ocular precalculados (`gaze-frames.json`).
+- **Diseño responsivo y accesible:** Unidades fluidas de viewport (`vw`), adaptación para dispositivos móviles y compatibilidad con `prefers-reduced-motion`.
+- **Tipografía local:** Fuentes Epilogue Black y DM Sans integradas.
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- npm, pnpm, or yarn
+## Demostración
 
-### Installation
-Clone the repository and install dependencies:
+![Demostración interactiva](public/Tramas.gif)
+
+📥 [Descargar video original (Tramas.mp4)](public/Tramas.mp4)
+
+## Primeros Pasos
+
+### Requisitos previos
+
+- [Node.js](https://nodejs.org/) (versión 18 o superior recomendada)
+- npm, pnpm o yarn
+
+### Instalación
+
+Clona el repositorio e instala las dependencias:
+
 ```bash
 git clone git@github.com:MrDylanDev/Tramas-Footer-Section.git
 cd Tramas-Footer-Section
 npm install
 ```
 
-### Running the Project
-Start the development server:
+### Ejecución del Proyecto
+
+Inicia el servidor de desarrollo local:
+
 ```bash
 npm run dev
 ```
-Once started, open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
-### Available Scripts
-- `npm run dev`: Starts the local development server on port 3000 (`--host 0.0.0.0`).
-- `npm run build`: Bundles the application for production.
-- `npm run preview`: Previews the production build locally.
-- `npm run lint`: Runs TypeScript type-checking without emitting files.
+Una vez iniciado, abre tu navegador e ingresa a [http://localhost:3000](http://localhost:3000).
+
+### Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo en el puerto 3000 (`--host 0.0.0.0`).
+- `npm run build`: Compila la aplicación optimizada para producción.
+- `npm run preview`: Previsualiza la compilación de producción de forma local.
+- `npm run lint`: Ejecuta el chequeo de tipos con TypeScript sin emitir archivos.
 
