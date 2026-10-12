@@ -12,8 +12,6 @@ Sección de pie de página interactiva con seguimiento de mirada por video (gaze
 
 ![Demostración interactiva](public/Tramas.gif)
 
-📥 [Descargar video original (Tramas.mp4)](public/Tramas.mp4)
-
 ## Primeros Pasos
 
 ### Requisitos previos
